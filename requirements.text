@@ -1,0 +1,60 @@
+# ===================== 核心必装依赖（项目运行必须） =====================
+# WEB界面核心：Streamlit（含聊天UI、文件上传、会话状态组件）
+streamlit>=1.35.0,<1.40.0
+# Streamlit文件上传功能配套依赖
+python-multipart>=0.0.9
+
+# ===================== RAG核心框架：LangChain全量兼容包 =====================
+# LangChain主框架
+langchain>=0.1.20,<0.2.0
+# LangChain核心底层组件（链结构、消息体、运行时调度）
+langchain-core>=0.1.52,<0.2.0
+# LangChain社区集成组件（通义千问大模型、嵌入模型封装）
+langchain-community>=0.0.38,<0.1.0
+# LangChain与Chroma向量库的专用集成包
+langchain-chroma>=0.1.2
+# LangChain文本分割器独立包（RecursiveCharacterTextSplitter依赖）
+langchain-text-splitters>=0.0.2
+
+# ===================== 向量数据库与数值计算 =====================
+# Chroma本地持久化向量数据库
+chromadb>=0.4.24,<0.5.0
+# 向量计算、数值处理基础依赖（锁定兼容版本，避免2.0+兼容性问题）
+numpy>=1.24.0,<2.0.0
+
+# ===================== 阿里云通义千问SDK与网络依赖 =====================
+# 阿里云DashScope官方SDK（通义千问qwen3-max、text-embedding-v4嵌入模型）
+dashscope>=1.20.0
+# 异步网络请求依赖（大模型流式输出、嵌入模型调用必备）
+aiohttp>=3.9.0
+# 基础网络请求依赖
+requests>=2.31.0
+urllib3>=2.0.7,<3.0.0
+
+# ===================== 数据格式、类型校验与工具依赖 =====================
+# 数据模型校验（LangChain、Chroma强依赖，锁定兼容版本）
+pydantic>=2.5.0,<3.0.0
+# Token计数与文本标准化（LangChain文本分割、大模型输入校验依赖）
+tiktoken>=0.6.0
+# 环境变量管理（安全存储DASHSCOPE_API_KEY，避免密钥硬编码）
+python-dotenv>=1.0.1
+# 加密哈希增强（MD5去重功能全环境兼容保障）
+pycryptodome>=3.20.0
+
+# ===================== 可选优化依赖（推荐安装，扩展功能+体验优化） =====================
+# 图片处理（README截图、界面图片展示、后续功能扩展）
+pillow>=10.2.0
+# 进度条与终端交互美化
+tqdm>=4.66.0
+# PDF文档解析（后续扩展支持PDF文件上传入库）
+pypdf>=4.0.0
+# Word文档解析（后续扩展支持docx文件上传入库）
+python-docx>=1.1.0
+# Excel文档解析（后续扩展支持xlsx文件上传入库）
+openpyxl>=3.1.2
+# Markdown文档解析（后续扩展支持md文件上传入库）
+markdown>=3.5.2
+# 异步性能优化
+anyio>=4.2.0
+# 结构化日志管理（调试、问题排查更方便）
+loguru>=0.7.2
