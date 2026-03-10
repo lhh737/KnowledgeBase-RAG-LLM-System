@@ -34,7 +34,8 @@
   <img src="https://github.com/lhh737/KnowledgeBase-RAG-LLM-System/raw/master/chat_demo1.png" width="750" alt="知识库上传界面示例">
 </div>
 
-- 本地知识库预存了衣物尺码推荐表、材质维护、穿衣搭配....对标电商（可更改）
+- 本地知识库预存了衣物尺码推荐表、材质维护、穿衣搭配....
+- 对标电商（可自行更改 符合个人需求）
 
 ---
 
