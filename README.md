@@ -116,7 +116,7 @@ KnowledgeBase-RAG-LLM-System/
 - A: 需修改之处都是数据输出处，自行配置成本地环境即可！
 
 ---
-## 优化方向（仅供参考）
+## ✨ 优化方向（仅供参考）
 - 采用深度rerank，可自行添加langchain框架中的EGE rerank模块，回答更精准
 - 页面优化：streamlit内置许多功能，可按需丰富UI
 - 思维链 -> 思维树 ？
