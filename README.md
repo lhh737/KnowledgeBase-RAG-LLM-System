@@ -27,6 +27,17 @@
 - 支持 **流式输出**
 - 支持 **消息历史文件存储**（FileChatMessageHistory）
 
+### 3) 效果预览（demo）
+<!-- 上传服务示例图 -->
+<div align="left">
+  <img src="https://github.com/lhh737/KnowledgeBase-RAG-LLM-System/chat_demo1.png" width="750" alt="知识库上传界面示例">
+</div>
+
+<!-- 智能客服示例图 -->
+<div align="center">
+  <img src="https://github.com/lhh737/KnowledgeBase-RAG-LLM-System/chat_demo2.png" width="750" alt="智能客服聊天界面示例">
+</div>
+
 ---
 
 ## 🧩 项目结构（建议）
