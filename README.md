@@ -29,6 +29,10 @@
 
 ### 3) 效果预览（demo）
 ---
+<!-- 智能客服示例图 -->
+<div align="left">
+  <img src="https://github.com/lhh737/KnowledgeBase-RAG-LLM-System/raw/master/chat_demo.png" width="750" alt="智能客服聊天界面示例">
+</div>
 
 
 - 本地知识库预存了衣物尺码推荐表、材质维护、穿衣搭配....
