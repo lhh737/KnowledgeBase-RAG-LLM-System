@@ -31,7 +31,7 @@
 ---
 <!-- 智能客服示例图 -->
 <div align="left">
-  <img src="https://github.com/lhh737/KnowledgeBase-RAG-LLM-System/raw/master/chat_demo.png" width="750" alt="智能客服聊天界面示例">
+  <img src="https://github.com/lhh737/KnowledgeBase-RAG-LLM-System/raw/master/chat_demo1.png" width="750" alt="智能客服聊天界面示例">
 </div>
 
 
