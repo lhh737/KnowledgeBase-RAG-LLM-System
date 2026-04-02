@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+
+venv/
+.venv/
+env/
+
+vector_db/
+chat_history/
+data/
+
+.idea/
+.vscode/
+.DS_Store
